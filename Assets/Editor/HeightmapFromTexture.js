@@ -17,7 +17,7 @@ static function ApplyHeightmap () {
 	var map = new Color[w2 * w2];
 
 	if (w2 != w || h != w) {
-		// Resize using nearest-neighbor scaling if texture has no filtering
+		// Resize using nearest-neighbor scaling if texture has no filtering, simmmulate yellowstone
 		if (heightmap.filterMode == FilterMode.Point) {
 			var dx : float = parseFloat(w)/w2;
 			var dy : float = parseFloat(h)/w2;

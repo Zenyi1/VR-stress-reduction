@@ -81,7 +81,7 @@ Icon
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-# Directories potentially created on remote AFP share
+# Directories potentially created on remote AFP shared environment
 .AppleDB
 .AppleDesktop
 Network Trash Folder
